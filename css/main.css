@@ -73,3 +73,49 @@ h1 {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  li {
+    width: 25%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    padding-bottom: .8rem;
+  }
+
+  li {
+    float: right;
+    margin-top: 2rem;
+    padding: 0;
+    width: 15%;
+  }
+
+  h1 {
+    float: left;
+    display: inline;
+    margin-top: .7rem;
+    padding-left: 1rem;
+  }
+
+  header::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+}
