@@ -30,25 +30,30 @@ header {
 ul {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 
 a {
+  display: block;
   text-decoration: none;
   width: 100%;
   color: #6c8fe0;
   font-size: 1.125rem;
+  padding: .7rem .9rem;
+}
+
+a:hover {
+  background: #6c8fe0;
+  color: #fff;
 }
 
 li {
   display: block;
-  width: 100%;
-  padding-left: .9rem;
-  padding-bottom: 1rem;
 }
 
 h1 {
   color: #fff;
-  margin-top: 0;
+  margin: 0;
   text-align: center;
   font-size: 2rem;
   padding: .5rem;
@@ -98,11 +103,13 @@ h1 {
     padding-bottom: .8rem;
   }
 
+  nav {
+    text-align: right;
+  }
+
   li {
-    float: right;
     margin-top: 2rem;
     padding: 0;
-    width: 15%;
   }
 
   h1 {
