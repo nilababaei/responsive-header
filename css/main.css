@@ -100,20 +100,27 @@ h1 {
   }
 
   header {
-    padding-bottom: .8rem;
+    padding-bottom: .2rem;
   }
 
   nav {
+    margin-top: 1.7rem;
     text-align: right;
+    float: right;
+    width: 60%;
+  }
+
+  a {
+    padding: 0;
   }
 
   li {
-    margin-top: 2rem;
     padding: 0;
   }
 
   h1 {
     float: left;
+    width: 30%;
     display: inline;
     margin-top: .7rem;
     padding-left: 1rem;
