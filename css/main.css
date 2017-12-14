@@ -99,7 +99,7 @@ h1 {
   }
 
   li {
-    float: right;
+    float: left;
     margin-top: 2rem;
     padding: 0;
     width: 15%;
@@ -117,5 +117,13 @@ h1 {
   display: block;
   clear: both;
 }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+  font-size: 130%;
+  }
 
 }
